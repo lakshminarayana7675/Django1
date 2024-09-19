@@ -93,9 +93,7 @@ class Rectangle:
         self.length = length
         self.width = width
 
-    # Define the iterator method
     def __iter__(self):
-        # Return length and width in the required format
         yield {'length': self.length}
         yield {'width': self.width}
 
